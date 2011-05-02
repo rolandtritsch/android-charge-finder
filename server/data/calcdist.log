@@ -1,0 +1,29 @@
+Timing is on.
+select st_distance(st_geomfromtext('point(53.27855829933471 -6.184949411621094)', 4326), st_geomfromtext('point(53.29466984445274 -6.168994903564453)', 4326)) as distance;
+      distance      
+--------------------
+ 0.0226743955469538
+(1 row)
+
+Time: 3.158 ms
+select st_distance(st_geomfromtext('point(53.27855829933471 -6.184949411621094)', 2163), st_geomfromtext('point(53.29466984445274 -6.168994903564453)', 2163)) as distance;
+      distance      
+--------------------
+ 0.0226743955469538
+(1 row)
+
+Time: 0.192 ms
+select st_distance(st_geomfromtext('point(53.27855829933471 -6.184949411621094)', 900913), st_geomfromtext('point(53.29466984445274 -6.168994903564453)', 900913)) as distance;
+      distance      
+--------------------
+ 0.0226743955469538
+(1 row)
+
+Time: 0.129 ms
+select st_distance(st_geomfromtext('point(53.27855829933471 -6.184949411621094)', 27500), st_geomfromtext('point(53.29466984445274 -6.168994903564453)', 27500)) as distance;
+      distance      
+--------------------
+ 0.0226743955469538
+(1 row)
+
+Time: 0.136 ms

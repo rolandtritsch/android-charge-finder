@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Roland Tritsch
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- Strings (to be localized) -->
+    <string name="app_title">ChargeFinder</string>
+
+    <string name="menu_lookup_address">Lookup</string>
+    <string name="menu_set_address">Address</string>
+    <string name="menu_set_range">Range</string>
+    <string name="menu_show_about">About</string>
+
+    <string name="alert_dialog_title_set_address">Enter Address</string>
+    <string name="alert_dialog_title_set_range">Enter Range</string>
+
+    <string name="alert_dialog_ok">OK</string>
+    <string name="alert_dialog_cancel">Cancel</string>
+
+    <string name="about_title">About ChargeFinder</string>
+    <string name="about_message">ChargeFinder V1.3.1\n\n(c) Roland Tritsch 2011\nroland@tritsch.org\n\nSponsored by HP Germany\nhermann.sauer@hp.com</string>
+
+    <string name="query_no_address_found">Contact has no address!</string>
+    <string name="query_street_missing">Contact address needs a street!</string>
+    <string name="query_city_missing">Contact address needs a city!</string>
+    <string name="query_country_missing">Contact address needs a country!</string>
+
+    <!-- Defaults -->
+    <string name="default_address">Eichendorff Weg 2, Eltville 65343, Germany</string>
+    <string name="default_range">10000</string>
+    <string name="default_zoom_level">10</string>
+</resources>
